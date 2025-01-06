@@ -1,0 +1,103 @@
+= Les principes de base du design
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+
+== Introduction
+
+Les principes de base du design sont essentiels pour structurer et harmoniser les éléments visuels. 
+
+=== ...
+
+Ces principes - alignement, contraste, hiérarchie, et équilibre - servent à guider l’œil de l'utilisateur et à communiquer les messages de manière efficace. 
+
+
+== 1. Alignement
+
+=== Définition : 
+
+L'alignement concerne la disposition des éléments par rapport aux autres ou à des repères visuels. 
+
+=== ...
+
+Il crée une structure visuelle et permet à l'œil de suivre un chemin logique à travers le design.
+
+=== Types : 
+
+Horizontal, vertical, central, ou justifié. Chacun affecte la lisibilité et la clarté visuelle.
+
+=== Objectif : 
+
+Assurer la cohérence, renforcer la lisibilité et rendre le design plus harmonieux. Un bon alignement transmet un sentiment d’organisation.
+
+== 2. Contraste
+
+=== Définition : 
+
+Le contraste est la différence entre les éléments dans un design (couleur, forme, taille, texture, ou espacement) pour attirer l’attention ou mettre en avant certaines parties.
+
+=== Utilisation : 
+
+Les contrastes de couleurs (ex : noir/blanc) ou de tailles aident à hiérarchiser l'information et à rendre les éléments clés plus visibles.
+
+=== Objectif : 
+
+Attirer l’œil vers les éléments importants, faciliter la lecture et donner une hiérarchie visuelle. 
+
+=== ...
+
+Le contraste améliore également l'accessibilité en rendant les éléments plus distincts.
+
+
+== 3. Hiérarchie
+
+=== Définition : 
+
+La hiérarchie guide l'œil de l'utilisateur dans un ordre d'importance des éléments. 
+
+=== ...
+
+Elle aide à déterminer où diriger l’attention en premier, puis ensuite.
+
+
+=== Techniques : 
+
+Taille (titres plus grands), position (éléments clés placés en haut), couleurs plus marquantes ou contrastées pour l’importance.
+
+=== Objectif : 
+
+Aider l’utilisateur à comprendre rapidement la structure du contenu et à naviguer facilement entre les sections du design. 
+
+=== ...
+
+Une hiérarchie claire rend le message plus impactant.
+
+== 4. Équilibre
+
+=== Définition : 
+
+L’équilibre concerne la distribution visuelle des éléments pour donner une impression de stabilité. Il peut être symétrique ou asymétrique.
+
+=== Symétrique : 
+
+Les éléments sont organisés de manière égale des deux côtés d’un axe central, procurant une sensation de calme et de formalité.
+
+=== Asymétrique : 
+
+La composition est équilibrée sans être identique de chaque côté, souvent plus dynamique et moderne.
+
+=== Objectif : 
+
+
+Créer une harmonie visuelle, transmettre des émotions (calme, dynamisme) et assurer que le design soit agréable à l'œil.
+
+=== ...
+
+Maîtriser ces principes aide à créer des designs attrayants et fonctionnels, qui capturent l'attention tout en restant esthétiquement plaisants et intuitifs.
+
+
+
+
+
+

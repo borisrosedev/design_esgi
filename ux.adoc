@@ -1,0 +1,122 @@
+= UX
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+
+== Introduction
+
+En UX (expérience utilisateur), comprendre les besoins des utilisateurs et concevoir un parcours client ...
+
+=== ...
+
+optimisé sont fondamentaux pour créer des expériences engageantes, intuitives et efficaces. 
+
+
+
+
+=== Comprendre les besoins des utilisateurs
+
+=== Recherche utilisateur : 
+
+C'est la base de l'UX, comprenant des méthodes qualitatives (entretiens, focus groups, observation) et quantitatives (questionnaires, analyse de données). 
+
+=== ...
+
+Cette recherche permet de comprendre les motivations, comportements, et besoins réels des utilisateurs cibles.
+
+=== Personas : 
+
+Basées sur les données collectées, les personas sont des représentations fictives des utilisateurs types, décrivant leurs objectifs, frustrations, et habitudes. 
+
+=== ...
+
+Les personas permettent de concevoir des expériences plus adaptées aux attentes spécifiques des utilisateurs.
+
+
+=== Scénarios et cartes d'empathie : 
+
+Les scénarios décrivent comment un utilisateur type utilise un produit pour atteindre un objectif spécifique, ...
+
+=== ...
+
+tandis que les cartes d'empathie aident à se mettre à la place de l’utilisateur, en explorant ce qu’il pense, ressent, voit et entend pendant son parcours.
+
+
+
+=== Tests d’usabilité : 
+
+Ils permettent de tester des prototypes ou des produits finis avec de vrais utilisateurs, ...
+
+=== ...
+
+pour identifier les points de friction et améliorer la fluidité de l’expérience.
+
+
+=== Parcours client
+
+=== Cartographie du parcours client : 
+
+
+Ce processus consiste à représenter les étapes que l’utilisateur traverse pour atteindre un objectif, ...
+
+=== ...
+
+depuis la découverte du produit jusqu’à son utilisation continue. 
+
+=== ...
+
+La carte de parcours identifie les points de contact (touchpoints) où l'utilisateur interagit avec le produit et les émotions associées à chaque étape.
+
+=== Points de friction et moments de vérité : 
+
+
+Identifier les points de friction aide à éliminer les obstacles qui frustrent l'utilisateur, ...
+
+=== ...
+
+tandis que les moments de vérité sont des étapes où l'expérience fait une impression durable (par exemple, lors de l'inscription ou du premier achat).
+
+
+=== Omnicanalité : 
+
+Le parcours client s’étend souvent sur plusieurs canaux (site web, application mobile, réseaux sociaux), ...
+
+=== ...
+
+et l’expérience doit être fluide et cohérente sur chaque point d’interaction.
+
+=== Optimisation continue : 
+
+L’UX nécessite une optimisation constante, car les attentes des utilisateurs et les technologies évoluent. 
+
+=== ...
+
+Les entreprises doivent analyser régulièrement les feedbacks utilisateurs et les données analytiques pour ajuster le parcours et répondre aux nouveaux besoins.
+
+
+== Importance de l’UX
+
+
+=== Satisfaction et fidélité : 
+
+
+Une bonne UX améliore la satisfaction et la fidélité des utilisateurs, réduisant le taux de rebond et augmentant le taux de conversion.
+
+=== Différenciation concurrentielle : 
+
+
+Dans un marché saturé, une UX de qualité devient un avantage concurrentiel, attirant plus d’utilisateurs et renforçant la réputation de la marque.
+
+
+=== ROI élevé : 
+
+Investir dans l'UX peut réduire les coûts de support, augmenter les ventes, et améliorer l’engagement, générant ainsi un retour sur investissement positif.
+
+
+
+
+
+
+
+

@@ -1,0 +1,194 @@
+= Système de Design et Bibliothèque Partagée dans Figma
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+
+== Introduction
+
+Un système de design dans Figma centralise les composants, styles, et ressources pour assurer une cohérence visuelle et fonctionnelle dans vos projets. 
+
+=== ...
+
+En le partageant via une bibliothèque, les équipes peuvent collaborer efficacement en utilisant des éléments préconfigurés.
+
+
+=== 1. Qu’est-ce qu’un Système de Design dans Figma ?
+
+Un système de design est une collection organisée de styles, composants, et directives qui servent de base pour concevoir des interfaces utilisateur.
+
+
+=== A. Contenu typique d’un système de design :
+
+=== Styles :
+
+* Couleurs : Palette primaire, secondaire, d’arrière-plan, et d’alertes.
+* Textes : Typographies pour titres, sous-titres, corps de texte.
+* Effets : Ombres, bordures, flous.
+
+=== Composants réutilisables :
+
+* Boutons, icônes, cartes, modaux, menus, etc.
+* Variantes pour gérer les états (actif, inactif, survol, etc.).
+
+=== Grilles et mises en page :
+
+Grilles responsives pour mobile, tablette, et desktop.
+
+=== Guides :
+
+Spécifications sur l’utilisation des éléments (exemple : marges, tailles minimales de clic).
+
+== 2. Création d’un Système de Design
+
+=== A. Structuration du fichier du système
+
+=== Créer un fichier dédié :
+
+=== Nommez-le par exemple : Design System.
+
+=== Organisez les pages :
+
+=== Exemple de structure :
+
+Page 1 : Styles
+Page 2 : Composants
+Page 3 : Icônes
+Page 4 : Prototypes
+
+=== B. Création des styles
+
+=== Couleurs :
+
+* Ajoutez les couleurs dans un cadre dédié.
+* Créez des styles de couleur (ex. : "Primary Blue", "Success Green").
+
+=== Textes :
+
+* Configurez des styles de texte pour chaque usage :
+* Titres : H1, H2, H3.
+* Corps de texte.
+* Légendes.
+
+=== Effets :
+
+Configurez des ombres et bordures réutilisables.
+
+== C. Création des composants
+
+=== Développez des éléments basiques :
+
+* Boutons, champs de saisie, modaux, etc.
+* Intégrez des variantes pour gérer les états (par exemple : "Primary", "Hover", "Disabled").
+
+=== Hiérarchisez les composants :
+
+* Utilisez des noms descriptifs : "Button/Primary/Active".
+* Groupez-les par catégories (boutons, cartes, menus).
+
+=== Ajoutez des contraintes et Auto Layout :
+
+Rendez les composants adaptatifs pour différents dispositifs.
+
+== D. Grilles et guides
+
+=== Configurer des grilles :
+
+* 12 colonnes pour desktop, 8 pour tablette, 4 pour mobile.
+
+=== Ajouter des guides :
+
+Placez des guides pour définir des marges et alignements standards.
+
+== 3. Bibliothèque Partagée dans Figma
+
+=== A. Publier une bibliothèque
+
+=== Activer la Team Library :
+
+* Cliquez sur Assets > Team Library.
+$ Activez la publication de votre fichier Design System.
+
+=== Partager avec l’équipe :
+
+* Publiez la bibliothèque en cliquant sur Publish Library.
+* Assurez-vous que tous les styles et composants sont bien inclus.
+
+== B. Utiliser une bibliothèque partagée
+
+=== Activer une bibliothèque :
+
+* Dans n’importe quel fichier, accédez à Assets > Team Library.
+* Activez la bibliothèque publiée.
+
+=== Insérer des composants :
+
+* Faites glisser des composants ou styles directement depuis le panneau Assets.
+
+=== ...
+
+* Mise à jour des composants :
+
+Si la bibliothèque est mise à jour, vous recevrez une notification pour synchroniser les changements.
+
+== 4. Avantages d’un Système de Design et d’une Bibliothèque Partagée
+
+=== Cohérence :
+
+Tous les membres de l’équipe utilisent les mêmes composants et styles.
+Réduction des erreurs et incohérences visuelles.
+
+=== Productivité :
+
+Les composants réutilisables accélèrent le processus de design.
+Moins de temps passé à recréer les éléments.
+
+=== Collaboration :
+
+Les designers, développeurs, et autres parties prenantes partagent une source unique de vérité.
+La Team Library garantit une synchronisation des ressources.
+
+=== Évolutivité :
+
+Les mises à jour dans la bibliothèque se propagent automatiquement à tous les fichiers liés.
+Idéal pour les projets à grande échelle.
+
+== 5. Bonnes Pratiques pour un Système de Design Réussi
+
+=== Commencez par les bases :
+
+Créez d’abord les styles (couleurs, textes) avant de passer aux composants.
+
+=== Documentez vos décisions :
+
+Expliquez comment et quand utiliser chaque composant ou style.
+
+=== Itérez régulièrement :
+
+Mettez à jour le système de design en fonction des besoins du projet.
+
+=== Vérifiez l’accessibilité :
+
+Assurez-vous que les contrastes et tailles de texte respectent les normes WCAG.
+
+=== Formez l’équipe :
+
+Sensibilisez les membres à l’importance du système de design et à son utilisation.
+
+=== ...
+
+Avec un système de design bien structuré et une bibliothèque partagée, votre équipe bénéficiera d’un flux de travail optimisé, ...
+
+=== ...
+
+garantissant des designs cohérents et évolutifs à travers tous les projets.
+
+
+
+
+
+
+
+
+
+

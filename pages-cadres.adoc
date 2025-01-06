@@ -1,0 +1,132 @@
+= Gestion de l’espace de travail dans Figma : Pages et Cadres
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+
+== 1. Les Pages dans Figma : 
+
+=== Introduction
+
+Les pages dans Figma permettent d'organiser votre projet en séparant les contenus ou les sections en unités distinctes.
+
+
+=== Créer des pages :
+
+* Cliquez sur l'icône de la liste des pages en bas à gauche de l'interface.
+
+* Ajoutez une nouvelle page en cliquant sur l'icône "+".
+
+
+=== ...
+
+Les pages sont utiles pour séparer des étapes d’un projet ou des variantes, par exemple :
+
+* Page 1 : Wireframes
+* Page 2 : Design haute fidélité
+* Page 3 : Prototypes interactifs
+
+=== Renommer et réorganiser les pages :
+
+* Double-cliquez sur le nom de la page pour la renommer.
+* Faites glisser les pages pour modifier leur ordre.
+
+=== Utilisation avancée :
+
+Les pages permettent également de limiter les fichiers à des tailles raisonnables, ce qui peut être utile pour des projets collaboratifs ou volumineux.
+
+== 2. Les Cadres dans Figma : 
+
+
+=== Introduction
+
+Les cadres (Frames) sont des conteneurs essentiels dans Figma qui structurent et organisent les éléments graphiques.
+
+
+=== Création et gestion des cadres :
+
+* Sélectionnez l'outil "Frame" (touche raccourci : F).
+* Dessinez un cadre dans l’espace de travail.
+
+=== ...
+
+Vous pouvez également convertir des groupes d’éléments en cadre via le menu contextuel.
+
+=== Types de cadres :
+
+
+* Cadres classiques : utilisés pour structurer le contenu.
+* Cadres de dispositifs : Figma propose des cadres prédéfinis pour différents écrans (desktop, mobile, tablette).
+
+=== ...
+
+Accessible dans la barre de propriétés à droite après avoir sélectionné l’outil Frame.
+
+=== Fonctionnalités avancées :
+
+
+=== Constraints (Contraintes) :
+
+Permettent de contrôler le comportement des éléments à l'intérieur d’un cadre lors de changements de taille.
+
+=== Exemple : 
+
+Un bouton peut rester centré même si le cadre est redimensionné.
+
+=== Layouts (Grilles et colonnes) :
+
+Activez les grilles dans un cadre pour organiser les éléments selon une structure alignée (utile pour le responsive design).
+
+=== Clipping (Découpage) :
+
+Par défaut, les cadres masquent le contenu qui déborde ("Clip content"). Cela peut être désactivé pour afficher les éléments dépassant des bords.
+
+== 3. Interaction entre Pages et Cadres :
+
+
+=== Organisation du projet :
+
+* Utilisez des pages pour compartimenter différents aspects ou étapes d’un projet.
+Dans chaque page, utilisez des cadres pour créer des sections logiques ou des dispositifs spécifiques (mobile, desktop).
+
+=== Prototypage :
+
+Les interactions entre différents cadres et pages peuvent être définies dans le mode prototype, pour simuler des transitions.
+
+== 4. Conseils pour une gestion efficace de l’espace de travail :
+
+
+=== Nommez tout clairement :
+
+* Donnez des noms explicites aux pages, cadres, et couches pour faciliter la navigation.
+
+=== Utilisez des cadres imbriqués :
+
+Les cadres peuvent être imbriqués pour structurer des sections ou des composants plus petits.
+
+=== Verrouillez les éléments fixes :
+
+Une fois un cadre ou une page finalisée, verrouillez les éléments pour éviter les modifications accidentelles.
+
+=== Évitez le désordre :
+
+Organisez vos projets avec des cadres et des pages pour réduire la surcharge visuelle dans l’espace de travail.
+
+== 5. Collaboration et partage :
+
+Les pages permettent de segmenter le travail pour que plusieurs utilisateurs puissent travailler simultanément sans conflits.
+
+=== ...
+
+Les cadres offrent une vue claire et précise pour les collaborateurs qui travaillent sur des sections spécifiques.
+
+
+
+
+
+
+
+
+
+
+

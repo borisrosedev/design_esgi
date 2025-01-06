@@ -1,0 +1,212 @@
+= Exportation des Actifs pour le Développement (Icônes, Images) dans Figma
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+
+== Introduction
+
+Figma permet d’exporter facilement des actifs (icônes, images, etc.) nécessaires au développement ...
+
+=== ...
+
+tout en garantissant leur qualité et leur compatibilité avec différents formats et résolutions. Voici comment procéder.
+
+
+== 1. Préparation des Actifs pour l’Exportation
+
+=== A. Organiser les actifs
+
+=== Nommez clairement vos calques :
+
+Donnez des noms descriptifs aux calques ou groupes (ex. : "Icon/User", "Button/Primary").
+
+=== Utilisez des cadres ou groupes :
+
+Encapsulez les éléments dans des cadres ou groupes pour éviter d’exporter des parties inutiles.
+
+=== B. Vérifiez les dimensions
+
+=== Taille appropriée :
+
+Assurez-vous que les actifs ont des dimensions adaptées à leur utilisation (ex. : 24x24 px pour des icônes).
+
+=== Alignez correctement :
+
+Vérifiez que les éléments sont alignés sur la grille de pixels pour éviter les distorsions.
+
+== 2. Options d’Exportation dans Figma
+
+=== A. Formats disponibles
+
+=== PNG :
+
+Format standard pour les images raster.
+Idéal pour les icônes ou images nécessitant un fond transparent.
+
+=== JPG :
+
+Format optimisé pour des images avec un fond plein, comme des bannières.
+
+=== SVG :
+
+Format vectoriel pour des graphiques évolutifs, idéal pour les icônes et illustrations.
+
+=== PDF :
+
+Format vectoriel adapté à l’impression ou aux fichiers multi-pages.
+
+=== B. Résolutions multiples
+
+Figma prend en charge l’exportation à plusieurs résolutions :
+
+* 1x : Taille originale.
+* 2x, 3x : Résolutions adaptées pour les écrans Retina ou HiDPI.
+
+== 3. Processus d’Exportation des Actifs
+
+=== A. Exporter un élément individuel
+
+=== Sélectionnez l’actif :
+
+* Cliquez sur l’élément que vous souhaitez exporter.
+
+=== Configurer l’exportation :
+
+* Dans la barre latérale droite, accédez à la section Export.
+* Cliquez sur + pour ajouter une option d’exportation.
+* Choisissez le format (PNG, SVG, JPG, PDF).
+* Configurez les tailles (ex. : 1x, 2x, 3x).
+
+=== Exporter :
+
+Cliquez sur Export [Nom de l’élément] pour télécharger le fichier.
+
+=== B. Exporter plusieurs éléments
+
+=== Sélectionnez plusieurs éléments :
+
+Utilisez Shift + clic pour sélectionner plusieurs calques ou groupes.
+
+=== Configurer les options d’exportation :
+
+Configurez chaque élément individuellement dans la section Export.
+
+=== Exporter en lot :
+
+Cliquez sur Export [Nombre] layers pour télécharger tous les éléments.
+
+== C. Exporter un cadre ou une page entière
+
+=== Sélectionnez un cadre ou une page :
+
+Cliquez sur le cadre ou utilisez Ctrl + A (Windows) / Cmd + A (Mac) pour tout sélectionner.
+
+=== Configurer l’exportation :
+
+Choisissez le format et les tailles.
+
+=== Exporter :
+
+Téléchargez tout le contenu en un seul fichier ou en fichiers séparés.
+
+== 4. Exportation d’Actifs pour le Développement Web et Mobile
+
+=== A. Pour le Web
+
+=== Utilisez SVG pour les icônes :
+
+=== Avantage : 
+
+Format léger, redimensionnable sans perte de qualité.
+
+=== Exportez les images en JPG ou PNG :
+
+* JPG pour les images sans transparence (ex. : photos).
+* PNG pour les images nécessitant un fond transparent.
+
+=== B. Pour le Mobile
+
+
+=== Exportez en résolutions multiples :
+
+Configurez les exportations à 1x, 2x, 3x pour Android et iOS.
+
+=== Exemple : 
+
+Un icône de 48x48 px sera exporté en :
+
+* 1x : 48x48 px.
+* 2x : 96x96 px.
+* 3x : 144x144 px.
+
+=== Utilisez des formats appropriés :
+
+* PNG pour des visuels complexes.
+* SVG pour des icônes ou illustrations simples.
+
+== 5. Bonnes Pratiques pour l’Exportation
+
+=== Centralisez les actifs :
+
+Placez les actifs destinés au développement dans une page ou un cadre dédié.
+
+=== Utilisez des conventions de nommage :
+
+Adoptez un système clair pour nommer vos fichiers.
+
+=== Exemple : icon-user-24px.svg.
+
+=== Simplifiez les fichiers SVG :
+
+Si vous exportez en SVG, vérifiez que les fichiers ne contiennent pas de données inutiles :
+
+
+* Supprimez les groupes inutiles.
+* Réduisez les points d’ancrage.
+
+=== Testez les actifs :
+
+Vérifiez les fichiers exportés sur les plateformes cibles (web, mobile) pour garantir leur qualité.
+
+=== Documentez les exportations :
+
+
+=== Fournissez une documentation claire pour les développeurs :
+
+* Formats utilisés.
+* Résolutions recommandées.
+* Exemple d’intégration (CSS, HTML, etc.).
+
+== 6. Collaboration avec les Développeurs
+
+=== A. Utiliser le mode Inspect dans Figma
+
+=== Partager le fichier :
+
+Donnez aux développeurs un accès View only au fichier Figma.
+
+=== Activer le mode Inspect :
+
+Les développeurs peuvent cliquer sur un élément pour obtenir ses propriétés CSS, Android, ou iOS.
+
+=== Télécharger les actifs :
+
+Les développeurs peuvent télécharger directement les actifs configurés pour l’exportation.
+
+== B. Intégration avec d’autres outils
+
+=== Zeplin :
+
+Exportez vos fichiers Figma dans Zeplin pour une collaboration détaillée.
+
+=== Jira / Trello :
+
+* Joignez les fichiers exportés aux tâches de développement.
+
+
+
+
+
+
+

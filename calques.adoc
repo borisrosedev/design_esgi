@@ -1,0 +1,186 @@
+= Gestion des Calques et Alignement des Éléments dans Figma
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+
+== Introduction
+
+La gestion des calques et l'alignement des éléments sont essentiels pour maintenir une organisation claire et garantir une esthétique professionnelle dans vos designs. 
+
+
+=== 1. Gestion des Calques dans Figma
+
+Les calques dans Figma permettent de structurer les éléments de votre design. Ils fonctionnent comme un système hiérarchique similaire à d'autres outils de design.
+
+
+=== A. Types de calques
+
+* Frames (Cadres) : Conteneurs pour organiser des groupes d'éléments.
+* Shapes (Formes) : Rectangles, ellipses, lignes, etc.
+
+=== ...
+
+* Text (Texte) : Blocs ou lignes de texte.
+* Images : Calques contenant des images importées ou masquées.
+
+=== ...
+
+
+* Groupes : Ensemble de calques regroupés pour une gestion collective.
+
+=== B. Panneau des calques
+
+=== Localisation : 
+
+À gauche de l'interface Figma.
+
+=== Hiérarchie :
+
+* Les calques sont listés du haut vers le bas.
+* Les éléments au-dessus dans la liste apparaissent devant les autres dans l’espace de travail.
+
+=== Navigation :
+
+* Cliquez sur un calque pour le sélectionner dans l’espace de travail.
+* Double-cliquez pour renommer un calque.
+
+=== Organisation :
+
+=== Groupes : 
+
+Sélectionnez plusieurs éléments (Shift + clic) et regroupez-les (Ctrl/Cmd + G).
+
+=== Cadres : 
+
+Placez des calques dans un cadre pour une organisation logique.
+
+=== Verrouillage : 
+
+Cliquez sur l’icône de cadenas pour empêcher les modifications accidentelles.
+
+=== Masquage : 
+
+Cliquez sur l’icône d’œil pour masquer temporairement un calque.
+
+== C. Actions avancées
+
+=== Réorganisation :
+
+Faites glisser les calques dans la liste pour changer leur ordre.
+
+=== Masques :
+
+Transformez un calque en masque pour limiter l'affichage d'autres calques.
+
+=== Sélection rapide :
+
+Utilisez Alt + clic (Windows) ou Option + clic (Mac) pour sélectionner des calques imbriqués.
+
+== 2. Alignement des Éléments
+
+L’alignement garantit que vos éléments sont disposés de manière cohérente et esthétiquement plaisante.
+
+=== A. Outils d'alignement
+
+Les outils d'alignement sont disponibles dans la barre supérieure lorsque des éléments sont sélectionnés.
+
+=== Alignement horizontal :
+
+* Aligner à gauche, centrer ou aligner à droite.
+
+=== Alignement vertical :
+
+Aligner en haut, centrer ou aligner en bas.
+
+=== Distribution :
+
+Distribuez uniformément l’espace entre plusieurs éléments.
+
+== B. Grilles et Guides
+
+=== Grilles :
+
+* Ajoutez des grilles dans un cadre pour faciliter l’alignement.
+
+=== ...
+
+* Paramétrez des colonnes, des rangées ou des grilles modulaires via la barre des propriétés.
+
+=== Guides :
+
+Faites glisser des guides à partir des règles (affichées avec Shift + R).
+
+=== Aimantation (Snapping) :
+
+Les éléments s'alignent automatiquement sur les grilles, guides ou autres éléments proches.
+
+== C. Raccourcis d’alignement
+
+* Ctrl/Cmd + Shift + G : Regrouper les éléments sélectionnés.
+
+=== ...
+
+* Ctrl/Cmd + G : Aligner automatiquement en fonction de l'option choisie.
+
+=== ...
+
+* Alt/Option + Drag : Ajuster la distance entre plusieurs éléments.
+
+== D. Espacement automatique
+
+=== Smart Guides (Guides intelligents) :
+
+Figma affiche des distances lors du déplacement d’éléments pour garantir un espacement uniforme.
+
+=== Auto Layout :
+
+* Transformez un groupe d’éléments en Auto Layout pour gérer l’alignement et l’espacement automatiquement.
+
+=== ...
+
+* Modifiez les paramètres d’espacement dans la barre des propriétés.
+
+=== 3. Conseils pour une organisation optimale
+
+=== Organisation des calques
+
+=== Renommez les calques : 
+
+Donnez des noms descriptifs pour une navigation facile.
+
+=== Utilisez des cadres et des groupes : 
+
+Cadrez les sections logiques pour structurer le design.
+
+=== Verrouillez ou masquez : 
+
+Évitez les modifications accidentelles en verrouillant les calques.
+
+=== Alignement des éléments
+
+=== Utilisez les grilles : 
+
+Paramétrez une grille pour maintenir une cohérence visuelle.
+
+=== Adoptez Auto Layout : 
+
+Automatiser l’espacement entre les éléments simplifie les modifications ultérieures.
+
+=== Vérifiez la symétrie : 
+
+Utilisez les guides intelligents pour garantir que les éléments sont correctement espacés.
+
+=== ...
+
+En maîtrisant la gestion des calques et l’alignement des éléments, vous garantissez non seulement un design clair et attrayant, ...
+
+=== ...
+
+mais aussi une collaboration plus fluide avec votre équipe.
+
+
+
+
+
+

@@ -1,0 +1,191 @@
+
+= Création d'Interface Utilisateur (UI) : Utilisation des formes de base dans Figma
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+
+
+== Introduction
+
+
+Les formes de base (rectangle, ellipse, ligne) sont des éléments fondamentaux dans Figma pour concevoir des interfaces utilisateur. 
+
+
+=== ...
+
+Elles servent à structurer, organiser et ajouter des éléments visuels simples dans un design.
+
+
+== 1. Formes de base disponibles dans Figma
+
+=== Rectangle : 
+
+Pour créer des blocs, des cartes, des boutons, des conteneurs, etc.
+
+=== Ellipse : 
+
+Pour concevoir des cercles, des badges, des avatars, ou des graphiques.
+
+=== Ligne : 
+
+Pour ajouter des séparateurs, des bordures ou des indicateurs directionnels.
+
+=== ...
+
+Ces formes peuvent être modifiées et stylisées pour s’adapter à des besoins spécifiques.
+
+
+== 2. Création des formes de base
+
+
+=== Rectangle :
+
+=== Outil Rectangle :
+
+* Raccourci clavier : R
+
+* Cliquez et faites glisser sur l’espace de travail pour dessiner un rectangle.
+
+=== Utilisations communes :
+
+=== Boutons : 
+
+Ajoutez un texte au centre du rectangle.
+
+=== Sections : 
+
+Utilisez les rectangles pour délimiter des zones (en-têtes, pieds de page, etc.).
+
+=== Cartes UI : 
+Utilisez des rectangles pour créer des blocs de contenu.
+
+=== Ellipse :
+
+=== Outil Ellipse :
+
+* Raccourci clavier : O
+
+=== ...
+
+Cliquez et faites glisser pour dessiner une ellipse. Maintenez la touche Shift pour créer un cercle parfait.
+
+
+== Utilisations communes :
+
+=== Avatars : 
+
+Combinez une ellipse avec une image masquée.
+
+=== Graphiques : 
+
+Utilisez des ellipses comme base pour des éléments graphiques (icônes, badges).
+
+=== Ligne :
+
+=== Outil Ligne :
+
+=== Raccourci clavier : L
+
+
+* Cliquez et faites glisser pour tracer une ligne droite.
+* Maintenez la touche Shift pour une ligne parfaitement horizontale, verticale ou diagonale (45°).
+
+=== Utilisations communes :
+
+=== Séparateurs : 
+
+Ligne fine pour séparer des sections.
+
+=== Bordures : 
+
+Tracez des lignes décoratives autour des éléments.
+
+=== Indicateurs directionnels : 
+
+Ajoutez des flèches pour guider l’utilisateur.
+
+== 3. Personnalisation des formes
+
+=== Dimensions : 
+
+Ajustez les dimensions via la barre de propriétés (largeur, hauteur).
+
+=== Angles arrondis :
+
+Ajoutez des coins arrondis pour les rectangles pour créer des boutons ou des cartes stylisées.
+
+=== Paramètre : 
+
+"Corner Radius" dans la barre de propriétés.
+
+=== Styles :
+
+=== Couleurs : 
+
+Changez la couleur de remplissage ou des bordures via le panneau des propriétés.
+
+=== Bordures : 
+
+Ajustez l’épaisseur et le style (pointillés, continus).
+
+=== Ombres : 
+
+Ajoutez des effets d’ombre pour donner de la profondeur.
+
+=== Transformations :
+
+Faites pivoter, redimensionnez ou déplacez les formes pour les adapter au design.
+Combinez des formes pour créer des icônes ou des composants personnalisés.
+
+== 4. Utilisation des formes pour créer des éléments UI complexes
+
+=== Boutons :
+
+* Créez un rectangle avec des coins arrondis.
+* Ajoutez un texte au centre.
+* Appliquez des ombres et des couleurs cohérentes avec le design.
+
+=== Avatars ou icônes :
+
+* Dessinez une ellipse pour servir de conteneur.
+* Masquez une image à l'intérieur de l'ellipse (utilisez "Mask" dans Figma).
+
+=== Cartes ou blocs de contenu :
+
+* Dessinez un rectangle pour la structure de base.
+* Ajoutez un titre, une description, et éventuellement une image dans le rectangle.
+
+=== Menus ou barres de navigation :
+
+* Utilisez des lignes comme séparateurs.
+* Combinez des rectangles et des ellipses pour créer des icônes ou des boutons.
+
+== 5. Conseils pour une utilisation efficace des formes de base
+
+=== Groupes et cadres :
+
+Regroupez ou insérez les formes dans des cadres pour organiser votre design.
+
+=== Contraintes et alignements : 
+
+Utilisez les grilles et guides de Figma pour positionner précisément les formes.
+
+=== Composants : 
+
+Convertissez les formes de base stylisées en composants réutilisables pour assurer la cohérence dans votre projet.
+
+=== Couleurs et styles partagés : 
+
+Appliquez des styles de couleurs et d’effets globaux pour un design uniforme.
+
+
+=== ...
+
+En maîtrisant l'utilisation des formes de base dans Figma, vous pouvez créer des interfaces utilisateur efficaces et esthétiques, tout en garantissant une structure claire et une flexibilité dans vos designs.
+
+
+
+
+
+

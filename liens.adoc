@@ -1,0 +1,260 @@
+= Création de Liens entre les Écrans et Interactions dans Figma
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+
+== Introduction
+
+Dans Figma, la création de liens entre les écrans et ...
+
+=== ...
+
+la mise en place d’interactions permettent de transformer vos designs statiques en prototypes interactifs. 
+
+=== ...
+
+Ces fonctionnalités sont idéales pour présenter et tester des flux utilisateur, navigations et animations.
+
+
+=== ...
+
+
+== 1. Création de Liens entre les Écrans
+
+Les liens connectent différents cadres (ou écrans) pour simuler une navigation.
+
+
+== A. Mise en place des liens
+
+=== Activer le mode Prototype :
+
+Cliquez sur l’onglet Prototype dans la barre de propriétés à droite.
+
+=== Ajouter un lien :
+
+* Sélectionnez un élément (bouton, icône, etc.).
+* Faites glisser le petit cercle bleu vers un autre écran ou cadre pour créer un lien.
+
+=== Configurer le lien :
+
+* Définissez l’action déclenchante (ex. : clic, survol).
+
+=== ...
+
+* Choisissez une transition (ex. : instantanée, glissée, fondu).
+
+=== ...
+
+* Ajustez les paramètres de la transition, comme la durée et l’effet d’animation.
+
+== B. Tester les liens
+
+Cliquez sur le bouton Play (en haut à droite) pour prévisualiser le prototype.
+
+=== ...
+
+Naviguez entre les écrans pour vérifier le flux.
+
+=== ...
+
+
+== 2. Création d’Interactions Simples et Complexes
+
+=== A. Interactions simples
+
+Les interactions simples simulent des actions courantes telles que des clics ou des changements d’écran.
+
+=== ...
+
+
+=== Exemple : 
+
+Naviguer vers une nouvelle page
+
+=== ...
+
+Sélectionnez un bouton ou une zone cliquable.
+
+=== ...
+
+Ajoutez un lien vers l’écran cible.
+
+
+=== Configurez la transition :
+
+=== Type : 
+
+Glisser vers la gauche, Fondu, Instantané.
+
+=== Durée : 
+
+Ajustez le temps de la transition.
+
+== B. Interactions complexes
+
+Les interactions complexes impliquent plusieurs étapes ou des animations avancées, comme des pop-ups ou des sliders.
+
+
+=== 1. Pop-ups
+
+=== Créer le pop-up :
+
+* Dessinez un cadre avec le contenu du pop-up.
+* Placez-le au-dessus de l’écran principal.
+* Masquez-le initialement (ajoutez une opacité 0% si nécessaire).
+
+=== Configurer l’interaction :
+
+* Ajoutez un lien sur un bouton ou une icône qui déclenche le pop-up.
+
+=== ...
+
+* Action : Choisissez "Open Overlay".
+
+=== ...
+
+* Position : Centrez ou placez le pop-up selon vos besoins.
+
+=== Fermer le pop-up :
+
+Ajoutez un bouton "Fermer" dans le cadre du pop-up.
+Configurez une interaction pour fermer l’overlay.
+
+== 2. Sliders (Carrousels d’images)
+
+=== Créer le slider :
+
+* Empilez les cadres ou images pour chaque slide.
+* Placez-les côte à côte dans un cadre parent.
+
+=== Configurer la navigation :
+
+* Ajoutez des flèches ou des points indicateurs.
+
+=== Interaction : 
+
+Configurez un clic sur la flèche droite pour afficher le cadre suivant (transition "Move In").
+
+=== ...
+
+Ajoutez une transition inversée pour la flèche gauche.
+
+== 3. Menus déroulants
+
+Créez un cadre pour le menu déroulant et placez-le sous le bouton.
+
+=== ...
+
+Ajoutez une interaction "Open Overlay" au bouton pour afficher le menu.
+
+=== ...
+
+Configurez "Close Overlay" pour fermer le menu lorsqu’un élément est cliqué.
+
+== 3. Utilisation des Gestes et des Déclencheurs
+
+Les gestes et déclencheurs permettent d’imiter les comportements tactiles et ...
+
+=== ...
+
+les interactions utilisateur avancées.
+
+
+=== A. Types de déclencheurs
+
+=== Clic (Click):
+
+Déclenche une action lorsqu’un élément est cliqué.
+
+=== Survol (Hover):
+
+Affiche ou modifie un élément lorsque la souris passe dessus.
+
+=== Exemple : 
+
+Changement de couleur d’un bouton au survol.
+
+=== Glissement (Drag):
+
+Utilisé pour des carrousels, sliders ou éléments mobiles.
+
+=== Maintien (Press):
+
+* Simule un appui long sur un élément.
+
+=== Double-clic (Double Click):
+
+Déclenche une action plus spécifique.
+
+== B. Gestes tactiles
+
+Pour les designs mobiles, Figma supporte des gestes tactiles courants.
+
+
+=== Exemples :
+
+=== Glissement (Swipe):
+
+Configurez un "Drag" pour simuler un glissement latéral.
+
+=== Exemple : 
+
+Passer d’un écran à un autre ou naviguer dans un slider.
+
+=== Pinch to Zoom:
+
+Bien qu’il ne soit pas directement pris en charge, vous pouvez simuler l’effet de zoom avec des animations.
+
+
+=== Défilement vertical ou horizontal:
+
+* Activez "Clip Content" dans un cadre parent pour simuler un défilement.
+
+=== Retour en arrière (Swipe Back):
+
+Ajoutez un déclencheur "Drag" vers la gauche ou la droite pour revenir à l’écran précédent.
+
+== 4. Bonnes Pratiques pour les Interactions
+
+=== Planifiez les flux :
+
+Avant de créer les liens, définissez le parcours utilisateur pour éviter les oublis ou les incohérences.
+
+=== Simplifiez les interactions :
+
+Limitez les animations complexes pour ne pas surcharger l’expérience utilisateur.
+
+=== Testez fréquemment :
+
+Prévisualisez vos interactions à chaque étape pour détecter les erreurs.
+
+=== Conservez la cohérence :
+
+Utilisez des transitions similaires dans tout le prototype pour une expérience fluide.
+
+=== Accélérez avec des plugins :
+
+
+=== Prototype Interaction Plugin : 
+
+Facilite la configuration des interactions avancées.
+
+=== Anima for Figma : 
+
+
+Pour des animations et des transitions fluides.
+
+=== ...
+
+Avec ces outils et techniques, vous pouvez transformer vos designs ...
+
+=== ...
+
+en prototypes interactifs, professionnels et intuitifs, prêts à être testés et présentés.
+
+
+
+
+
+

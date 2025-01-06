@@ -1,0 +1,181 @@
+= Types de fichiers dans Figma
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+
+== Introduction
+
+Figma est une plateforme de design collaborative qui prend en charge plusieurs types de fichiers pour organiser et structurer les projets. 
+
+== 1. Fichiers de design
+
+Les fichiers de design sont les fichiers principaux dans Figma. 
+
+=== ...
+
+Ils contiennent l’ensemble des éléments visuels et graphiques d’un projet.
+
+=== Caractéristiques :
+
+=== Création d’interfaces : 
+
+Utilisés pour concevoir des interfaces utilisateur (UI) ou tout autre contenu graphique.
+
+=== Organisation :
+
+Comprend des pages pour segmenter différentes sections (wireframes, UI, variantes de design, etc.).
+
+=== ...
+
+Comprend des cadres pour organiser les écrans ou les sections spécifiques.
+
+
+=== Contenu visuel :
+
+Textes, images, icônes, boutons, grilles, et autres éléments UI/UX.
+
+=== Collaboratif :
+
+Plusieurs utilisateurs peuvent travailler en temps réel sur le même fichier.
+
+=== Exemples d'utilisation :
+
+* Création de wireframes, maquettes haute fidélité, moodboards.
+
+=== ...
+
+* Conception de pages web, applications mobiles, ou supports marketing.
+
+== 2. Fichiers de prototypage
+
+Les fichiers de prototypage permettent de transformer vos designs en prototypes interactifs pour simuler le comportement de l’application ou du site.
+
+
+== Caractéristiques :
+
+=== Liens entre cadres :
+
+Ajoutez des interactions entre différents cadres pour simuler des clics, transitions, ou animations.
+
+=== Transitions et animations :
+
+Paramètres comme les "Smart Animations" pour des transitions fluides entre les états.
+
+=== Choix de types d’animations : 
+
+glisser, fondu, rebond, etc.
+
+=== Aperçu en temps réel :
+
+Prévisualisez directement le prototype dans un navigateur ou une application Figma.
+
+=== Interaction utilisateur :
+
+
+=== Simulez le comportement de navigation, par exemple :
+
+* Clics sur des boutons.
+* Scrolls ou interactions avec des menus déroulants.
+
+=== Prototypage mobile ou desktop :
+
+Configurez des dispositifs spécifiques (iPhone, Android, desktop, etc.) pour tester les interactions.
+
+=== Exemples d'utilisation :
+
+* Tester la navigation d’une application mobile avant le développement.
+
+=== ...
+
+* Présenter des concepts ou idées au client de manière interactive.
+
+
+=== ...
+
+
+* Recevoir des retours sur l’ergonomie et les transitions.
+
+== 3. Fichiers de composants
+
+Les fichiers de composants sont des fichiers spécialisés pour centraliser et réutiliser des éléments de design cohérents dans un projet.
+
+
+=== Caractéristiques :
+
+=== Centralisation des composants :
+
+Stockez des éléments réutilisables comme des boutons, cartes, icônes, menus, etc.
+
+
+=== Modifications globales :
+
+Les modifications effectuées sur un composant parent se répercutent automatiquement sur toutes ses instances.
+
+=== Bibliothèques de design :
+
+Partagez des composants entre différents fichiers via des bibliothèques de design.
+
+=== Personnalisation des instances :
+
+Les instances de composants peuvent être personnalisées sans affecter le composant parent.
+
+=== Style global :
+
+Intégrez des styles globaux (couleurs, typographies) pour garantir une cohérence dans le design.
+
+=== Exemples d'utilisation :
+
+* Bibliothèque de design system d’une marque (Design System Figma).
+
+=== ...
+
+* Boutons, en-têtes, menus standardisés pour les projets web et mobiles.
+
+=== ...
+
+
+* Icônes réutilisables dans des fichiers de design.
+
+
+
+=== Comparaison des types de fichiers
+
+[cols="1,2,2",options="header"]
+|===
+| Type                     | Utilisation principale                                   | Exemples d’utilisation
+
+| Fichiers de design       | Créer des designs statiques.                             | Maquettes, wireframes, supports visuels.
+|===
+
+[cols="1,2,2"]
+|===
+| Fichiers de prototypage  | Simuler les interactions et tester des idées.            | Navigation, transitions, tests UX.
+|===
+
+[cols="1,2,2"]
+|===
+| Fichiers de composants   | Centraliser et réutiliser des éléments pour la cohérence.| Bibliothèque de design system, icônes, composants.
+|===
+
+
+=== Conseil pratique :
+
+
+Pour des workflows efficaces, combinez les types de fichiers :
+
+[%step]
+* Créez des composants dans un fichier dédié.
+* Utilisez ces composants dans vos fichiers de design.
+
+
+=== ...
+
+[%step]
+* Ajoutez des interactions pour le prototypage dans vos fichiers de design.
+
+
+=== ...
+
+[%step]
+* Cela garantit une meilleure organisation, une collaboration fluide et une grande efficacité dans vos projets.

@@ -1,0 +1,225 @@
+=  Bibliothèques Partagée
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+
+== Introduction
+
+Les bibliothèques partagées dans Figma sont des fichiers centralisés contenant des styles, des composants, et d’autres ressources de design, accessibles à toute l’équipe.
+
+=== ...
+
+Elles permettent une collaboration fluide, une cohérence visuelle, et une gestion efficace des mises à jour dans les projets.
+
+
+
+=== 1. Qu’est-ce qu’une Bibliothèque Partagée dans Figma ?
+
+Une bibliothèque partagée est un fichier qui regroupe les éléments réutilisables (styles, composants, icônes) et qui peut être activé par d’autres membres de l’équipe.
+
+
+=== ...
+
+Elle garantit que tout le monde utilise les mêmes ressources dans les projets.
+
+
+
+== 2. Création et Publication d’une Bibliothèque Partagée
+
+=== A. Préparer un fichier Design System
+
+=== Créer un fichier dédié :
+
+* Centralisez vos styles (couleurs, typographies, effets) et vos composants (boutons, cartes, icônes).
+
+
+=== Organisez les éléments en pages :
+
+* Page 1 : Styles (Couleurs, Textes, Effets).
+* Page 2 : Composants (Boutons, Modaux, Icônes).
+* Page 3 : Documentation (Règles et instructions).
+
+=== Créer des composants réutilisables :
+
+Utilisez Auto Layout et des variantes pour concevoir des composants adaptatifs.
+
+
+=== Exemples : Boutons avec états (actif, inactif, survol).
+
+
+=== B. Publier la bibliothèque
+
+
+=== Activer la Team Library :
+
+* Allez dans Assets > Team Library (barre latérale gauche).
+* Cliquez sur Publish Library pour publier le fichier.
+
+=== Sélectionner les ressources à partager :
+
+Vérifiez que tous les styles et composants pertinents sont inclus.
+
+=== Ajouter une description :
+
+Expliquez brièvement le contenu de la bibliothèque et son utilisation.
+
+=== Partager avec l’équipe :
+
+Une fois publié, la bibliothèque est accessible aux membres de l’équipe (selon les autorisations).
+
+
+== 3. Activation et Utilisation d’une Bibliothèque Partagée
+
+=== A. Activer une bibliothèque dans un fichier
+
+* Ouvrez un projet où vous souhaitez utiliser la bibliothèque.
+* Accédez à Assets > Team Library.
+* Activez la bibliothèque publiée en basculant l’interrupteur.
+
+=== B. Utiliser les ressources partagées
+
+=== Insérer des composants :
+
+* Allez dans le panneau Assets.
+* Faites glisser un composant partagé depuis la bibliothèque dans votre espace de travail.
+
+=== Appliquer des styles :
+
+* Sélectionnez un élément (texte, forme).
+
+=== ...
+
+* Dans la barre des propriétés, appliquez un style de la bibliothèque (couleur, texte, effet).
+
+
+=== C. Mise à jour des ressources partagées
+
+=== Notification des mises à jour :
+
+Lorsqu’une bibliothèque est mise à jour, une notification apparaît dans les fichiers qui utilisent ses ressources.
+
+=== Synchroniser les changements :
+
+* Cliquez sur Review and Update pour voir les détails des modifications.
+* Acceptez ou ignorez les changements selon vos besoins.
+
+== 4. Collaboration et Flux de Travail avec les Bibliothèques Partagées
+
+=== A. Rôles et responsabilités
+
+=== Designers responsables de la bibliothèque :
+
+* Maintiennent et mettent à jour le Design System.
+* Documentent les ressources pour l’équipe.
+
+=== Designers utilisateurs :
+
+* Accèdent et utilisent les ressources partagées.
+* Proposent des ajouts ou des améliorations si nécessaire.
+
+=== B. Documentation et Communication
+
+=== Ajouter une page de documentation :
+
+* Expliquez les règles d’utilisation des composants et styles.
+* Incluez des exemples visuels pour faciliter la compréhension.
+
+=== Communiquer les mises à jour :
+
+Informez l’équipe des changements dans la bibliothèque via Slack, e-mail, ou un outil de gestion de projet (ex. : Jira, Asana).
+
+== C. Gestion des conflits
+
+=== Évitez les duplications :
+
+* Encouragez les designers à toujours utiliser les ressources partagées au lieu de recréer des éléments.
+
+=== Contrôle des mises à jour :
+
+Avant de publier une modification, vérifiez l’impact sur les fichiers existants.
+
+== 5. Bonnes Pratiques pour les Bibliothèques Partagées
+
+=== A. Structuration de la bibliothèque
+
+=== Organisation claire :
+
+* Classez les ressources par catégories (ex. : Boutons, Formulaires, Icônes).
+
+=== Nomination cohérente :
+
+Utilisez des conventions comme "Button/Primary/Active" pour faciliter la recherche.
+
+=== B. Maintenance et évolutivité
+
+=== Mettez à jour régulièrement :
+
+* Adaptez la bibliothèque aux besoins de l’équipe ou des projets.
+
+=== Évitez les changements disruptifs :
+
+Si un composant est largement utilisé, discutez de toute modification majeure avec l’équipe.
+
+=== C. Collaboration efficace
+
+=== Encouragez les retours :
+
+Créez un canal de communication pour recueillir les suggestions des utilisateurs.
+
+=== Formez l’équipe :
+
+Organisez des ateliers pour expliquer l’utilisation de la bibliothèque.
+
+== 6. Avantages des Bibliothèques Partagées
+
+
+[cols="1,2",options="header"]
+|===
+| Avantage                 | Description
+
+| Cohérence                | Tous les membres utilisent les mêmes styles et composants.
+| Gain de temps            | Les designers évitent de recréer des éléments communs.
+|===
+
+=== ...
+
+[cols="1,2"]
+|===
+| Collaboration simplifiée | Les mises à jour sont partagées automatiquement avec toute l’équipe.
+| Scalabilité              | Le système peut évoluer pour s’adapter à des projets plus complexes.
+|===
+
+
+== 7. Exemple de Workflow Collaboratif
+
+=== Conception initiale :
+
+Les designers responsables créent et publient une bibliothèque contenant des boutons, des styles typographiques, et des palettes de couleurs.
+
+=== Utilisation :
+
+Les designers utilisateurs insèrent des composants dans leurs fichiers et appliquent les styles globaux.
+
+=== Proposition d’améliorations :
+
+Un membre propose un nouveau type de bouton via une discussion avec les responsables de la bibliothèque.
+
+=== Mise à jour :
+
+La bibliothèque est mise à jour, et les nouvelles ressources sont automatiquement synchronisées dans les projets.
+
+=== ...
+
+Avec une bibliothèque partagée bien structurée, votre équipe bénéficie d’une collaboration fluide, ...
+
+=== ...
+
+d’une cohérence visuelle accrue, et d’un flux de travail plus efficace, même sur des projets complexes.
+
+
+
+
+
+
+

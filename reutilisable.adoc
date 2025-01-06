@@ -1,0 +1,197 @@
+= Création de Composants Réutilisables dans Figma
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+
+== Introduction
+
+Les composants réutilisables sont une fonctionnalité clé de Figma qui permet de centraliser les éléments de design et d'assurer leur cohérence dans un projet. 
+
+=== ...
+
+Ils peuvent être utilisés, personnalisés et mis à jour à grande échelle, ce qui facilite la maintenance et l’évolution des designs.
+
+
+== 1. Qu’est-ce qu’un Composant dans Figma ?
+
+Un composant est un élément maître (ou "Master Component") qui peut être dupliqué sous forme d'instances. 
+
+=== ...
+
+Les instances héritent des propriétés du composant maître, mais certaines propriétés peuvent être modifiées individuellement.
+
+
+=== Exemples courants :
+
+* Boutons.
+* Cartes.
+* Icônes.
+* Modèles de navigation.
+
+== 2. Création d’un Composant
+
+=== A. Étapes pour créer un composant
+
+=== Concevoir l’élément de base :
+
+* Dessinez ou regroupez les éléments nécessaires (texte, formes, icônes, etc.).
+
+=== Exemple : Un bouton avec un texte et une bordure.
+
+=== Convertir en composant :
+
+* Sélectionnez l’élément ou le groupe.
+* Faites un clic droit et choisissez "Create Component".
+
+=== ...
+
+Ou utilisez le raccourci Ctrl + Alt + K (Windows) ou Cmd + Option + K (Mac).
+
+=== Nommer le composant :
+
+Donnez un nom descriptif au composant (ex. : "Primary Button", "Card/With Image").
+
+== B. Personnalisation des composants
+
+=== Ajoutez des contraintes pour permettre une adaptabilité :
+
+* Fixez des marges ou un positionnement dynamique pour une utilisation responsive.
+* Utilisez l’Auto Layout pour permettre une structure flexible :
+
+=== Exemple : 
+
+Un bouton dont la largeur s'ajuste en fonction de la longueur du texte.
+
+== 3. Création de Variants pour les Composants
+
+=== A. Pourquoi utiliser les Variants ?
+
+Les variants permettent de regrouper plusieurs versions d’un composant dans un seul bloc (par exemple, un bouton actif, inactif, et survolé).
+
+=== B. Création de Variants
+
+=== Créer le composant principal :
+
+* Convertissez un élément en composant.
+
+=== Ajouter des variantes :
+
+* Sélectionnez le composant.
+* Cliquez sur "Add Variant" dans la barre des propriétés.
+
+=== Configurer les propriétés des variantes :
+
+* Modifiez chaque variante pour refléter un état ou une version différente.
+* Ajoutez des propriétés comme "Type" (Primary/Secondary) ou "State" (Active/Disabled).
+
+=== C. Organisation des Variants
+
+Utilisez des noms clairs pour chaque propriété et valeur.
+
+=== Exemple :
+
+* Type : Primary, Secondary.
+* State : Active, Hover, Disabled.
+
+== 4. Utilisation des Composants Réutilisables
+
+=== A. Instances de Composants
+
+=== Créer une instance :
+
+Faites glisser un composant depuis le panneau Assets dans l’espace de travail.
+Ou copiez/collez une instance existante.
+
+=== Personnaliser une instance :
+
+Modifiez les propriétés non verrouillées (texte, couleurs, etc.).
+
+=== Exemple : 
+
+Changez le texte d’un bouton ou remplacez une image.
+
+=== B. Mise à jour globale :
+
+
+Les modifications apportées au composant maître se propagent automatiquement à toutes les instances, sauf pour les propriétés qui ont été personnalisées.
+
+== 5. Organisation et Gestion des Composants
+
+=== A. Centraliser les composants
+
+=== Créer un fichier dédié :
+
+* Regroupez tous les composants principaux dans un fichier séparé (par exemple, un fichier Design System).
+
+=== Publier une bibliothèque :
+
+* Activez Team Library pour partager les composants avec votre équipe.
+* Cliquez sur Assets > Team Library > Publish pour rendre les composants accessibles.
+
+=== B. Hiérarchie des composants
+
+* Organisez les composants dans des catégories.
+
+=== Exemple : Boutons, Cartes, Icônes.
+
+=== Utilisez une convention de nommage claire :
+
+=== Exemple : 
+
+"Button/Primary", "Card/With Image".
+
+== 6. Bonnes Pratiques pour les Composants Réutilisables
+
+=== Utiliser des noms descriptifs :
+
+Facilitez la compréhension et la recherche dans la bibliothèque.
+
+=== Exemple : 
+
+"Button/Primary/Active".
+
+=== Simplifier les variantes :
+
+Ne créez pas trop de variantes inutiles pour éviter de compliquer la gestion.
+
+=== Maintenir la cohérence :
+
+Assurez-vous que les composants respectent les styles de couleur, de texte et d’effets définis.
+
+=== Tester les composants :
+
+Vérifiez leur adaptabilité dans différents contextes (mobile, tablette, desktop).
+
+=== Utiliser Auto Layout :
+
+Intégrez Auto Layout dans les composants pour gérer automatiquement l’espacement et la taille.
+
+== 7. Exemple d’un Workflow Typique
+
+=== Bouton Principal :
+
+* Créez un bouton avec un texte central et des coins arrondis.
+* Convertissez-le en composant.
+* Ajoutez des variantes pour différents états (Normal, Hover, Disabled).
+
+=== Carte Produit :
+
+* Concevez une carte avec une image, un titre et une description.
+* Ajoutez Auto Layout pour que la carte s’ajuste à la longueur du texte.
+* Convertissez-la en composant et créez des variantes avec ou sans image.
+
+=== Navigation :
+
+* Regroupez des boutons ou des icônes pour une barre de navigation.
+* Utilisez des contraintes pour rendre la navigation responsive.
+
+
+
+
+
+
+
+
+
+

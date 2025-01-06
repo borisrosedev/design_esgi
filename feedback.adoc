@@ -1,0 +1,217 @@
+
+= Suivi et Intégration des Retours Clients Directement sur Figma
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+
+
+== Introduction
+
+Figma offre des fonctionnalités puissantes pour collaborer avec les clients et intégrer leurs retours directement dans les projets. 
+
+
+=== ...
+
+Ces outils simplifient la communication et permettent de centraliser les commentaires, les discussions, et les révisions dans un seul endroit.
+
+
+== 1. Collecte des Retours Clients sur Figma
+
+=== A. Partager un lien de prototype ou de fichier
+
+=== Préparer le fichier :
+
+Assurez-vous que le fichier ou prototype est bien organisé avec des noms clairs pour les cadres et composants.
+
+=== Partager le lien :
+
+Cliquez sur le bouton Share en haut à droite.
+
+=== Définissez les autorisations :
+
+* View only pour permettre uniquement la consultation.
+
+* Can comment pour autoriser les clients à ajouter des commentaires.
+
+* Copiez et envoyez le lien au client.
+
+=== Prototypage interactif :
+
+* Si le fichier contient un prototype, les clients peuvent naviguer dans le flux pour comprendre les interactions.
+
+=== B. Utilisation des commentaires
+
+=== Activer le mode commentaire :
+
+Cliquez sur l’icône Comment (en haut à droite, une bulle de texte).
+
+=== Ajouter un commentaire :
+
+Les clients peuvent cliquer sur n’importe quel élément pour ajouter un commentaire précis.
+
+=== Exemple : "Peut-on augmenter la taille de ce bouton ?"
+
+
+=== Répondre aux commentaires :
+
+Les designers peuvent répondre directement dans Figma pour clarifier ou confirmer une modification.
+
+=== Marquer comme résolu :
+
+Une fois le retour traité, cliquez sur Resolve pour signaler que le commentaire est pris en compte.
+
+== 2. Organisation des Retours Clients
+
+=== A. Regrouper les commentaires
+
+=== Nommer les cadres et pages :
+
+Utilisez des noms descriptifs pour aider les clients à localiser facilement les sections concernées.
+
+=== Exemple : "Homepage Draft", "Contact Page".
+
+=== Étiqueter les retours :
+
+* Utilisez des mentions claires dans les commentaires, comme "@nom_du_designer" ou "Section: Header".
+
+=== Documenter les demandes complexes :
+
+Pour des retours nécessitant plusieurs étapes, créez une liste de tâches dans une page dédiée du fichier Figma.
+
+== B. Créer une page pour le suivi des retours
+
+=== Ajouter une page dédiée :
+
+Créez une page dans le fichier nommée "Feedback" ou "Retours".
+
+=== Lister les commentaires :
+
+Ajoutez une liste des retours clients sous forme de texte ou de tableaux pour garder une vue d’ensemble.
+
+=== Exemple :
+
+[cols="1,1,1,1", options="header"]
+|===
+| Commentaire | Statut	| Responsable	| Priorité 
+| Augmenter la taille du bouton |	En cours | Designer 1	| Haute 
+|Modifier la couleur du fond |	Terminé	| Designer 2 |	Moyenne 
+|===
+
+
+== 3. Intégration des Retours dans le Design
+
+=== A. Directement dans Figma
+
+=== Identifier les éléments concernés :
+
+* Cliquez sur les commentaires pour visualiser rapidement les sections à modifier.
+
+=== Apporter les modifications :
+
+Effectuez les ajustements demandés dans le design.
+
+=== Notifier les clients :
+
+Répondez aux commentaires en expliquant les changements effectués.
+
+=== Exemple : 
+
+"La taille du bouton a été augmentée à 44px."
+
+=== B. Travailler avec des versions
+
+=== Créer une nouvelle version :
+
+Avant de commencer les modifications, allez dans File > Version History et enregistrez une version nommée (ex. : "V1 Avant modifications").
+
+=== Comparer les versions :
+
+Après les changements, les clients peuvent visualiser l’évolution entre les différentes versions.
+
+== 4. Collaboration Avancée avec des Plugins et 
+Intégrations
+
+=== A. Plugins utiles pour le suivi des retours
+
+=== FigJira / Trello :
+
+Synchronisez les commentaires Figma avec des outils de gestion de projet pour suivre les retours dans votre workflow existant.
+
+=== Annotate It:
+
+Ajoutez des annotations claires et précises dans le fichier Figma pour guider les clients.
+
+=== Stark:
+
+Vérifiez l’accessibilité pour répondre aux retours liés à la lisibilité ou au contraste.
+
+== B. Intégration avec d’autres outils
+
+=== Slack :
+
+Configurez des notifications Slack pour être alerté des nouveaux commentaires ou mises à jour.
+
+=== Notion / Confluence :
+
+Documentez les retours et les étapes de conception dans un espace dédié pour plus de transparence.
+
+=== Asana / Jira :
+
+Convertissez les commentaires en tâches assignables pour mieux gérer les responsabilités.
+
+== 5. Conseils pour Gérer les Retours Clients
+
+=== A. Faciliter la communication
+
+
+=== Évitez les fichiers complexes :
+
+Divisez les designs en plusieurs pages ou fichiers si nécessaire pour simplifier la navigation.
+
+=== Encadrez les retours :
+
+Donnez des consignes claires aux clients sur la manière de commenter efficacement.
+
+=== B. Prioriser les modifications
+
+* Classez les retours par priorité (ex. : urgents, améliorations, suggestions).
+
+=== C. Gérer les désaccords :
+
+Si un retour est discutable, répondez avec une explication ou proposez une alternative.
+
+=== D. Suivi post-modifications :
+
+Partagez un lien mis à jour avec les modifications pour validation finale.
+
+== 6. Workflow Typique
+
+=== Préparation :
+
+* Organisez votre fichier Figma avec des noms clairs pour les pages et cadres.
+
+* Publiez un prototype interactif si nécessaire.
+
+=== Collecte des retours :
+
+Partagez le fichier ou prototype avec autorisation de commenter.
+
+=== ...
+
+Demandez aux clients de laisser leurs retours directement dans Figma.
+
+=== Intégration des retours :
+
+Suivez les commentaires, modifiez les designs et marquez les commentaires comme "Résolu".
+
+=== Validation :
+
+Partagez la version mise à jour pour confirmation ou autres itérations.
+
+
+
+
+
+
+

@@ -1,0 +1,219 @@
+= Utilisation des Grilles et Guides dans Figma
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+
+== Introduction
+
+Les grilles et guides sont des outils essentiels dans Figma pour structurer et organiser vos designs. 
+
+=== ...
+
+Ils permettent d'assurer un alignement précis, une hiérarchie visuelle cohérente et une mise en page harmonieuse, ...
+
+=== ...
+
+tout en facilitant la création d'interfaces utilisateur responsives.
+
+
+== 1. Les Grilles dans Figma
+
+Les grilles sont des lignes invisibles ou visibles qui divisent un cadre en sections pour organiser les éléments de manière cohérente.
+
+
+=== A. Types de grilles disponibles
+
+=== Colonnes :
+
+Utilisées pour structurer les éléments verticalement, notamment dans les interfaces web.
+
+=== Souvent basées sur un système de grille 12 colonnes.
+
+=== Rangées :
+
+Idéales pour organiser les éléments horizontalement.
+
+=== Grilles modulaires :
+
+Combine colonnes et rangées pour un design à structure complexe.
+
+=== Grilles carrées :
+
+Particulièrement utiles pour les icônes, illustrations ou designs de pixel art.
+
+== B. Ajouter une grille à un cadre
+
+Sélectionnez un cadre dans l’espace de travail.
+
+Dans la barre latérale droite, sous l’onglet Design, cliquez sur "Add Layout Grid".
+
+Configurez votre grille en cliquant sur l’icône d’engrenage à côté de "Layout Grid".
+
+== C. Paramétrage des grilles
+
+=== Colonnes :
+
+
+=== Nombre : 
+
+Ajustez le nombre de colonnes (souvent 12 pour le web).
+
+=== Type :
+
+=== "Stretch" : 
+
+Les colonnes s’adaptent à la largeur du cadre.
+
+=== "Center" : 
+
+Les colonnes sont centrées avec des marges fixes.
+
+=== Gouttières : 
+
+Ajustez l’espace entre les colonnes.
+
+=== Marges : 
+
+Ajoutez des marges de chaque côté pour encadrer le contenu.
+
+=== Rangées :
+
+
+=== Nombre : 
+
+Configurez le nombre de rangées nécessaires.
+
+=== Gouttières : 
+
+Ajustez l’espacement vertical.
+
+=== Grilles carrées :
+
+
+=== Taille : 
+
+Définissez la taille des carrés pour des designs précis.
+
+== D. Utilisation des grilles
+
+=== Conception responsive :
+
+Adaptez vos designs aux grilles pour garantir un alignement cohérent à travers les tailles d’écran.
+
+=== Organisation des éléments :
+
+Placez vos composants (texte, images, boutons) dans les colonnes ou rangées définies.
+
+=== Mise en page structurée :
+
+Utilisez les grilles pour assurer une hiérarchie visuelle et un équilibre.
+
+== 2. Les Guides dans Figma
+
+Les guides sont des lignes personnalisées que vous pouvez ajouter pour aligner et positionner précisément les éléments.
+
+
+== A. Ajouter des guides
+
+
+* Activez les règles (Shift + R).
+
+* Cliquez et faites glisser une ligne depuis une règle pour créer un guide (horizontal ou vertical).
+
+=== B. Paramètres des guides
+
+=== Déplacement :
+
+* Faites glisser un guide pour le repositionner.
+
+=== Suppression :
+
+Faites glisser le guide en dehors du cadre ou désactivez les règles.
+
+=== Verrouillage :
+
+Verrouillez les guides pour éviter les modifications accidentelles.
+
+=== Masquage :
+
+Affichez ou masquez les guides via View > Hide/Show Guides.
+
+== C. Utilisation des guides
+
+=== Alignement :
+
+Placez des guides pour aligner les textes, images ou composants.
+
+=== Organisation des marges :
+
+Créez des guides pour représenter visuellement les marges et paddings.
+
+=== Hiérarchie visuelle :
+
+Ajoutez des guides pour diviser votre cadre en sections logiques.
+
+== 3. Conseils pour une Utilisation Optimale des Grilles et Guides
+
+=== Grilles pour la cohérence :
+
+Adoptez un système de grille commun pour tous les cadres d’un même projet.
+
+=== Exemple : 
+
+Grille 12 colonnes pour les designs web.
+
+=== Guides pour la précision :
+
+Utilisez des guides pour aligner les éléments critiques tels que les logos, titres et boutons.
+
+=== Accessibilité :
+
+Assurez-vous que vos grilles et guides respectent les normes d’espacement pour les interfaces tactiles (par exemple, un espacement minimum de 44px pour les clics).
+
+=== Combinaison grilles/guides :
+
+Associez grilles et guides pour une structure claire et flexible.
+
+=== Exemple : 
+
+Utilisez une grille de colonnes pour le contenu principal et des guides pour positionner les éléments secondaires.
+
+=== Plugins utiles :
+
+
+=== Grid Systems: 
+
+Pour générer automatiquement des grilles complexes.
+
+=== Guide Master: 
+
+Pour créer et gérer des guides avec précision.
+
+== 4. Workflow Typique avec Grilles et Guides
+
+=== Ajoutez une grille :
+
+Définissez une grille adaptée à la résolution ciblée (par exemple, 12 colonnes pour un design desktop).
+
+=== Créez des guides :
+
+Ajoutez des guides pour encadrer les marges et positionner les sections critiques.
+
+=== Placez les éléments :
+
+Alignez les composants clés sur les colonnes et guides.
+
+=== Testez la réactivité :
+
+Redimensionnez le cadre et ajustez les contraintes pour vérifier l’adaptabilité.
+
+=== ...
+
+Avec une bonne maîtrise des grilles et guides, vous garantissez des designs précis, esthétiques et faciles à adapter à divers dispositifs et tailles d’écran.
+
+
+
+
+
+

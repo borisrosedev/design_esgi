@@ -1,0 +1,272 @@
+= Design Digital : IHM / Figma
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+== Module liminaire : UI/UX
+
+
+* link:./ergo.html[Ergonomie]
+* link:./ux.html[UX]
+* link:./ui.html[UI]
+
+=== ...
+
+* link:./principes-design.html[Principes fondamentaux du Design]
+
+== Module 1 : Introduction à Figma
+
+
+=== Découverte de Figma
+
+* Qu'est-ce que Figma ? Comparaison avec d'autres outils de design.
+
+=== ...
+
+* Inscription et installation (version web et application).
+
+=== ...
+
+* Tour d’horizon de l’interface utilisateur.
+
+=== ...
+
+* Fonctions de base et exploration de l’espace de travail
+
+== Panneaux principaux : 
+
+* link:./calques.html:[Calques], Assets, Propriétés.
+
+=== Gestion de l’espace de travail : 
+
+* link:./pages-cadres.html[pages et cadres].
+
+=== Types de fichiers Figma : 
+
+Fichiers de design, de prototypage, et de link:reutilisable.html[composants].
+
+== Module 2 : Création d'Interface Utilisateur (UI)
+
+
+=== Outils de design essentiels
+
+* link:./formes.html[Utilisation des formes de base (rectangle, ellipse, ligne)].
+
+=== ...
+
+
+* Outils de texte et de couleur.
+
+=== ...
+
+
+* Gestion des calques et alignement des éléments.
+
+
+=== Conception d'interfaces responsive
+
+* Cadres de mise en page pour l'adaptation aux résolutions d’écran.
+
+=== ...
+
+* Utilisation des link:./grilles.html[grilles] et guides.
+
+=== ...
+
+* Optimisation de la conception responsive pour mobile, tablette et desktop.
+
+
+=== Création et gestion des styles
+
+* Création de styles de couleur et de texte.
+
+=== ...
+
+
+* Gestion des ombres, des effets, et des bordures.
+
+=== ...
+
+* Création d'une link:./biblio.html[bibliothèque de styles pour un projet cohérent.]
+
+== Module 3 : Prototypage interactif
+
+=== Introduction au prototypage
+
+Notions de base du prototypage dans Figma.
+
+=== Paramètres des interactions : 
+
+transitions, survols, et animations.
+
+=== Mise en place des flux de navigation
+
+* Création de link:./liens.html[liens] entre les écrans.
+
+=== ...
+
+* Création d’interactions simples et complexes (pop-ups, sliders).
+
+=== ...
+
+
+* Utilisation des gestes et des déclencheurs.
+
+
+=== Tests de prototypes
+
+* Aperçu en mode présentation.
+
+=== ...
+
+* Simulation du parcours utilisateur.
+
+=== ...
+
+* link:./exportations.html[Exportation et partage du prototype avec les utilisateurs et les clients].
+
+== Module 4 : Création et Utilisation des Composants
+
+* link:./reutilisables.html[Création de composants réutilisables]
+
+
+=== Introduction aux composants : 
+
+principes et utilité.
+
+=== Création de composants de base : 
+
+boutons, champs de saisie, cartes.
+
+=== ...
+
+Application des variantes de composants pour gérer les états (actif, inactif, survol, etc.).
+
+=== ...
+
+Système de design et bibliothèque partagée
+
+=== ...
+
+
+Structuration d’un système de design dans Figma.
+
+
+=== ...
+
+Création de styles globaux et synchronisation avec les composants.
+
+
+=== ...
+
+* link:./biblio-partagees.html[Utilisation des bibliothèques partagées pour collaborer efficacement.]
+
+== Module 5 : Collaboration en Équipe
+
+=== Outils de collaboration
+
+=== Collaboration en temps réel : 
+
+commentaire, édition simultanée.
+
+=== ...
+
+Gestion des droits d’accès et invitations d’utilisateurs.
+
+
+=== ...
+
+Organisation et gestion des projets Figma.
+
+=== ...
+
+* Retour d’expérience et link:./feedback.html[feedback]
+* Ajout et gestion de commentaires sur le design.
+
+=== ...
+
+* Mise en place d’un workflow d’itérations avec le client et l’équipe.
+
+=== ...
+
+* Suivi et intégration des retours clients directement sur Figma.
+
+== Module 6 : Exportation et Déploiement
+
+
+=== Préparation pour le développement
+
+
+* Exportation des actifs pour le développement (icônes, images).
+
+=== ...
+
+* Utilisation du panneau Inspect pour fournir les spécifications aux développeurs.
+
+=== ...
+
+* Bonnes pratiques pour le transfert de design aux développeurs.
+
+=== ...
+
+* Optimisation et compatibilité
+
+=== ...
+
+* Exportation des fichiers pour différents écrans et résolutions.
+
+=== ...
+
+* Préparation du design pour les frameworks courants (React, Angular, etc.).
+
+=== ...
+
+
+* Suivi des versions et gestion des modifications.
+
+== Module 7 : Techniques et Outils Avancés
+
+=== Plugins et intégrations
+
+* Introduction aux plugins Figma.
+
+=== ...
+
+* Installation et utilisation de plugins populaires (Auto Layout, Color Contrast Checker, etc.).
+
+=== ...
+
+* Intégration de Figma avec des outils tiers (Zeplin, InVision, etc.).
+
+=== Techniques avancées de design UI/UX
+
+=== Auto Layout : 
+
+conception dynamique et responsive.
+
+=== ...
+
+* Création d’animations avancées pour le micro-interactions.
+
+=== ...
+
+* Mise en place de flux complexes et de parcours utilisateur détaillés.
+
+== Module 8 : Projet de Fin de Formation
+
+=== Réalisation d'un projet final
+
+Choix d'un sujet (application mobile, site web, etc.).
+
+=== Réalisation complète : 
+
+de la wireframe au prototype interactif.
+
+=== ...
+
+* Présentation finale et retour de l’équipe pédagogique.
+
+
+
+
+

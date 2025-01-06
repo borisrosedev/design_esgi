@@ -1,0 +1,234 @@
+= Définition de l’Ergonomie et de l’UX
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+
+== Introduction
+
+L'ergonomie et l'expérience utilisateur (UX) sont deux concepts complémentaires qui visent à optimiser l'interaction entre un utilisateur et un produit ou un système. 
+
+=== ...
+
+Bien qu'étroitement liés, ils se distinguent par leur portée et leur application.
+
+
+== 1. L’Ergonomie
+
+=== 1.1. Définition
+
+L’ergonomie est la science qui étudie les interactions entre les êtres humains et les éléments d’un système, dans le but d’optimiser le confort, la sécurité et l’efficacité. 
+
+=== ...
+
+Elle s’applique à la conception d’outils, d’environnements de travail, ou de produits pour les rendre adaptés aux capacités humaines.
+
+
+== 1.2. Objectifs de l'ergonomie
+
+=== Confort : 
+
+Réduire les efforts physiques ou cognitifs nécessaires pour accomplir une tâche.
+
+=== Efficacité : 
+
+Permettre à l’utilisateur d’atteindre ses objectifs rapidement et avec un minimum d’erreurs.
+
+=== Sécurité : 
+
+Réduire les risques liés à l’utilisation d’un produit ou d’un système.
+
+== 1.3. Types d’ergonomie
+
+=== Ergonomie physique :
+
+Concerne l’adaptation physique des produits et des espaces.
+
+=== Exemples : La conception d’une chaise de bureau, la hauteur d’un comptoir.
+
+=== Ergonomie cognitive :
+
+Vise à optimiser les interactions mentales, comme la charge cognitive ou la perception de l’information.
+
+
+=== Exemples : 
+
+Les tableaux de bord des voitures, l’interface d’un logiciel.
+
+
+=== Ergonomie organisationnelle :
+
+S’intéresse à la structure des systèmes de travail.
+
+=== Exemples : 
+
+Aménagement des horaires, gestion des flux d’informations.
+
+
+== 1.4. Applications
+
+
+* Conception de produits industriels.
+* Aménagement des espaces de travail.
+* Interfaces utilisateur (applications, logiciels).
+
+== 2. L’Expérience Utilisateur (UX)
+
+=== 2.1. Définition
+
+L’UX (User Experience) désigne la perception et les réactions d’un utilisateur face à un produit, un service ou un système, avant, pendant et après son utilisation. 
+
+=== ...
+
+Elle prend en compte des aspects fonctionnels, émotionnels, et esthétiques.
+
+
+=== 2.2. Objectifs de l’UX
+
+=== Utilisabilité : 
+
+Garantir que le produit est simple à utiliser.
+
+=== Satisfaction : 
+
+Susciter des émotions positives chez l’utilisateur.
+
+Engagement : 
+
+Encourager une interaction fluide et plaisante.
+
+=== 2.3. Les composantes de l’UX
+
+=== Utilité :
+
+Le produit doit répondre aux besoins de l’utilisateur.
+
+=== Exemple : 
+
+Une application de météo doit fournir des informations 
+pertinentes.
+
+=== Facilité d’utilisation :
+
+La courbe d’apprentissage doit être faible.
+
+=== Exemple : 
+
+Une interface intuitive avec des boutons bien placés.
+
+=== Accessibilité :
+
+Le produit doit être utilisable par tous, y compris les personnes en situation de handicap.
+
+=== Exemple : 
+
+Contrastes suffisants pour les malvoyants.
+
+=== Attractivité :
+
+Les éléments visuels et émotionnels jouent un rôle crucial.
+
+=== Exemple : 
+
+Design élégant et animations fluides.
+
+== 2.4. Processus UX
+
+=== Recherche utilisateur :
+
+Comprendre les besoins et les attentes grâce à des interviews, des sondages, ou des observations.
+
+=== Prototypage et tests :
+
+Créer des maquettes ou prototypes pour tester l’interaction.
+
+=== Analyse et amélioration :
+
+Recueillir les retours pour optimiser l’expérience.
+
+
+== 2.5. Différence entre UX et UI
+
+
+=== UI (User Interface) :  
+
+Concerne uniquement l’aspect visuel et interactif (boutons, typographies, couleurs).
+
+
+== UX :  
+
+Intègre l’UI, mais englobe aussi la recherche, la satisfaction émotionnelle et la facilité d’utilisation.
+
+== 3. Différences entre Ergonomie et UX
+
+
+[cols="1,1,1" options="header"]
+|===
+|Aspect	| Ergonomie	 | UX
+
+|Focus principal	| Interaction humaine avec un produit ou un système.	Sentiments, perceptions et réactions de l'utilisateur.
+
+=== ...
+
+|===  ...
+|Objectif	|Optimiser la sécurité, le confort et l’efficacité.	| Créer une expérience globale satisfaisante et engageante.
+|===
+
+=== ...
+
+|=== 
+|Portée	| Physique, cognitive, et organisationnelle. |Fonctionnalité, émotion, esthétisme et accessibilité.
+|Méthodes	|Analyse anthropométrique, tests cognitifs.	|Interviews, wireframes, tests utilisateur.
+|===
+
+== 4. Lien entre Ergonomie et UX
+
+
+=== Complémentarité :
+
+L'ergonomie est une composante essentielle de l'UX, surtout dans les phases de conception.
+
+=== ...
+
+Une mauvaise ergonomie (ex. : boutons mal placés) entraîne une mauvaise UX.
+
+=== Exemple pratique :
+
+
+=== Dans un site e-commerce :
+
+=== Ergonomie : 
+
+Le placement intuitif des boutons "ajouter au panier".
+
+
+=== UX : 
+
+L’émotion positive ressentie lorsqu’un achat est simple et rapide.
+
+== 5. Importance de l'ergonomie et de l'UX
+
+=== Pour les utilisateurs :
+
+* Réduction des frustrations.
+* Meilleure adoption des produits ou systèmes.
+
+=== Pour les entreprises :
+
+* Augmentation de la satisfaction et de la fidélisation.
+* Réduction des coûts liés aux erreurs ou à l'abandon du produit.
+
+== Pour la société :
+
+* Inclusion des personnes ayant des besoins spécifiques.
+* Amélioration de la qualité de vie grâce à des produits et services mieux conçus.
+
+
+
+
+
+
+
+
+
+
