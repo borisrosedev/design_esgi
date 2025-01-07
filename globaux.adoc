@@ -1,0 +1,211 @@
+
+= Création de Styles Globaux et Synchronisation avec les Composants dans Figma
+
+
+== Introduction
+
+Les styles globaux dans Figma permettent de centraliser les paramètres de design (couleurs, typographies, effets) ...
+
+=== ...
+
+et de les synchroniser avec les composants. 
+
+=== ...
+
+Cela garantit une cohérence visuelle et une mise à jour rapide sur l’ensemble du projet.
+
+
+== 1. Création de Styles Globaux dans Figma
+
+=== A. Types de Styles Globaux
+
+=== Couleurs :
+
+Palette primaire, secondaire, neutre, et des états (succès, erreur, etc.).
+
+=== Texte :
+
+Hiérarchie typographique pour les titres, sous-titres, corps de texte, et légendes.
+
+=== Effets :
+
+Ombres, bordures, flous.
+
+== B. Créer des Styles de Couleur
+
+=== Définir une couleur :
+
+* Sélectionnez un élément (forme, texte, cadre).
+* Dans la barre latérale droite, sous Fill ou Stroke, choisissez ou personnalisez une couleur.
+
+=== Créer le style :
+
+* Cliquez sur l’icône Style (quatre carrés empilés) à côté de Fill.
+* Cliquez sur + Create Style.
+
+=== Donnez un nom descriptif, par exemple :
+
+* "Primary Blue".
+* "Neutral Light Gray".
+* "Error Red".
+
+=== Utiliser le style :
+
+Appliquez ce style à d’autres éléments pour synchroniser leurs couleurs.
+
+== C. Créer des Styles de Texte
+
+=== Configurer la typographie :
+
+* Sélectionnez un bloc de texte.
+* Ajustez les paramètres (police, taille, interligne, espacement des caractères).
+
+=== Créer le style :
+
+* Cliquez sur l’icône Style Texte (un "T").
+* Cliquez sur + Create Style.
+
+=== Nommez le style selon son rôle :
+
+* "H1 / Title Large".
+* "Body Text / Regular".
+* "Caption / Small".
+
+== D. Créer des Styles d’Effets
+
+=== Ajouter un effet :
+
+* Sélectionnez un élément et allez dans la section Effects.
+* Ajoutez un Drop Shadow, Inner Shadow, ou un flou.
+
+=== Créer le style :
+
+* Cliquez sur l’icône Style à côté de l’effet.
+* Cliquez sur + Create Style et nommez-le (ex. : "Shadow Soft").
+
+== 2. Synchronisation des Styles Globaux avec les Composants
+
+Les styles globaux peuvent être appliqués directement aux composants pour maintenir leur cohérence visuelle.
+
+
+=== A. Appliquer les Styles Globaux aux Composants
+
+=== Créer ou modifier un composant :
+
+* Par exemple, un bouton ou une carte.
+
+=== Appliquer les styles :
+
+* Couleurs : Utilisez les styles globaux pour le fond, la bordure, ou le texte.
+
+=== ...
+
+* Texte : Appliquez un style typographique défini.
+
+=== ...
+
+* Effets : Ajoutez des ombres ou bordures stylisées.
+
+=== Publier le composant :
+
+Convertissez-le en composant (Ctrl + Alt + K ou Cmd + Option + K) et ajoutez-le à votre bibliothèque.
+
+== B. Propagation des Changements
+
+=== Modifier un style global :
+
+* Allez dans le panneau Styles (barre latérale gauche).
+* Mettez à jour la couleur, la typographie, ou l’effet.
+
+=== Mise à jour automatique :
+
+Tous les éléments et composants utilisant ce style seront mis à jour automatiquement.
+
+== 3. Gestion et Organisation des Styles Globaux
+
+=== A. Regrouper les Styles
+
+=== Hiérarchiser les noms :
+
+=== Exemple pour les couleurs :
+
+* "Primary / Blue".
+* "Neutral / Gray".
+* "State / Error".
+
+=== Exemple pour le texte :
+
+* "Heading / H1".
+* "Body / Regular".
+* "Caption / Small".
+
+=== Catégoriser les styles :
+
+Utilisez des conventions pour les styles de texte, couleurs, et effets.
+
+== B. Documentation des Styles
+
+=== Créer une page dédiée dans le fichier Design System :
+
+* Listez les styles avec des exemples d’utilisation.
+* Expliquez les règles (ex. : quand utiliser "Primary Blue").
+
+=== Ajouter des annotations :
+
+Incluez des notes sur les normes d’accessibilité (ex. : contraste minimum).
+
+== 4. Bonnes Pratiques pour les Styles et Composants
+
+=== Conservez une nomenclature cohérente :
+
+* Adoptez un schéma clair pour faciliter la recherche et l’utilisation.
+
+=== Exemple : "Button / Primary / Active".
+
+=== Utilisez des styles liés dans les composants :
+
+* Évitez d’appliquer des propriétés manuellement aux composants.
+* Les styles liés permettent une modification globale.
+
+=== Limitez le nombre de styles :
+
+Conservez un système simple et fonctionnel pour éviter les doublons ou les variations inutiles.
+
+=== Vérifiez l’accessibilité :
+
+Testez les contrastes des couleurs pour garantir la lisibilité.
+
+=== Centralisez les mises à jour :
+
+Modifiez toujours les styles globaux dans le fichier Design System pour maintenir la cohérence.
+
+== 5. Exemple de Workflow
+
+=== Création de Styles Globaux :
+
+Définissez les couleurs primaires, les typographies pour les titres et les corps de texte, et des ombres standards.
+
+=== Application aux Composants :
+
+Créez des boutons (Primary, Secondary), des cartes, et des champs de saisie en appliquant les styles globaux.
+
+=== Publication :
+
+Publiez les composants et les styles via Team Library.
+
+=== Mise à Jour :
+
+Modifiez un style global (par exemple, "Primary Blue") pour qu’il se reflète instantanément dans tous les composants associés.
+
+
+
+
+
+
+
+
+
+
+
+
+

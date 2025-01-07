@@ -1,0 +1,196 @@
+= Application des Variantes de Composants 
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+== Introduction
+
+pour Gérer les États (Actif, Inactif, Survol, etc.) dans Figma
+
+== Introduction
+
+Les variantes dans Figma permettent de regrouper plusieurs états d’un même composant, tels que "actif", "inactif" ou "survol", en un seul bloc. 
+
+=== ...
+
+Cela facilite la gestion et l’application des changements à grande échelle tout en garantissant la cohérence du design.
+
+
+== 1. Pourquoi Utiliser les Variantes ?
+
+=== Organisation : 
+
+Regrouper plusieurs états d’un composant sous une seule entité.
+
+=== Facilité de gestion : 
+
+Modifier ou ajouter des états sans dupliquer manuellement les composants.
+
+=== Cohérence : 
+
+Assurer une expérience utilisateur uniforme à travers toutes les instances.
+
+=== Prototypage : 
+
+Simuler facilement des transitions entre les états dans les interactions.
+
+== 2. Création de Variantes dans Figma
+
+=== A. Créer un Composant Principal
+
+=== Dessinez l’élément de base :
+
+Par exemple, un bouton composé d’un rectangle et d’un texte.
+
+=== Convertissez-le en composant :
+
+* Sélectionnez l’élément.
+* Faites un clic droit > Create Component ou utilisez Ctrl + Alt + K (Windows) / Cmd + Option + K (Mac).
+
+
+== B. Ajouter des Variantes
+
+=== Créer la structure de variantes :
+
+* Sélectionnez le composant principal.
+* Cliquez sur "Add Variant" dans la barre des propriétés à droite.
+* Une deuxième version du composant apparaîtra à côté du premier.
+
+=== Configurer les variantes :
+
+=== Ajustez chaque variante pour représenter un état spécifique :
+
+* État actif : Couleur de fond pleine avec texte contrastant.
+* État inactif : Couleur plus claire ou désaturée.
+
+=== État survolé : 
+
+Ajoutez un effet d’ombre ou changez légèrement la couleur.
+
+== C. Ajouter des Propriétés aux Variantes
+
+=== Ouvrir le panneau des propriétés :
+
+* Sélectionnez l’ensemble des variantes.
+* Dans la barre de droite, cliquez sur "Add Property".
+
+=== Définir des propriétés claires :
+
+=== Nom de la propriété : 
+
+Par exemple, "State".
+
+=== Valeurs de la propriété : 
+
+Active, Hover, Disabled, etc.
+
+=== Résultat attendu :
+
+Chaque variante est maintenant associée à une propriété spécifique.
+
+== 3. Utilisation des Variantes dans des Projets
+
+=== A. Insérer des Instances de Variantes
+
+=== Accéder aux variantes :
+
+* Allez dans le panneau Assets (barre latérale gauche).
+* Faites glisser le composant avec variantes dans l’espace de travail.
+
+=== Changer l’état :
+
+* Sélectionnez l’instance ajoutée.
+* Dans la barre des propriétés, choisissez l’état souhaité dans le menu déroulant des propriétés (par exemple, "Hover").
+
+== B. Prototypage avec Variantes
+
+=== Créer des interactions entre états :
+
+* Allez dans l’onglet Prototype.
+* Sélectionnez un composant ou une instance.
+* Reliez-le à une variante différente en glissant le cercle bleu.
+
+=== Configurer l’interaction :
+
+=== Déclencheur : 
+
+Par exemple, "On Hover" pour l’état survolé.
+
+=== ...
+
+* Action : Change to (Changer vers).
+
+=== ...
+
+* Animation : Définissez une transition fluide, comme "Smart Animate".
+
+=== Tester le prototype :
+
+Cliquez sur Play en haut à droite pour voir les interactions en action.
+
+== 4. Exemples d’États Courants avec Variantes
+
+[cols="1,1,1", options="header"]
+|===
+|Nom de la Propriété |Valeurs/États |Utilisation
+
+|State
+|Active, Hover, Disabled
+|Gérer les différents états d’un bouton.
+|===
+
+=== ...
+
+[cols="1,1,1"]
+|===
+|Type
+|Primary, Secondary
+|Différencier les types de boutons.
+
+|Size
+|Small, Medium, Large
+|Gérer les tailles de boutons ou d’éléments.
+|===
+
+== 5. Bonnes Pratiques pour les Variantes
+
+=== Nommez clairement les variantes :
+
+=== Exemple : 
+
+"Button/Primary/Active" ou "Button/Secondary/Disabled".
+
+=== Limitez le nombre de variantes :
+
+Ne créez que les variantes réellement nécessaires pour éviter la surcharge.
+
+=== Testez les transitions :
+
+* Assurez-vous que les interactions entre les variantes fonctionnent comme prévu.
+
+=== Centralisez les composants :
+
+Placez tous les composants principaux avec leurs variantes dans un fichier dédié, puis partagez-les via une bibliothèque (Team Library).
+
+== 6. Workflow Typique
+
+=== Bouton avec États :
+
+* Créez un composant de bouton.
+* Ajoutez des variantes pour "Active", "Hover", et "Disabled".
+* Configurez les interactions entre ces états.
+
+=== Cartes ou éléments de navigation :
+
+=== Développez une carte avec des variantes pour différents états :
+
+* Par exemple, "Default", "Hovered", et "Selected".
+* Configurez les interactions pour simuler les transitions.
+
+=== Prototypage interactif :
+
+* Intégrez les variantes dans un prototype.
+* Testez les comportements utilisateur, comme le survol ou le clic sur un bouton.
+
+
+

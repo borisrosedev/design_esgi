@@ -144,7 +144,7 @@ Application des variantes de composants pour gérer les états (actif, inactif, 
 
 === ...
 
-Système de design et bibliothèque partagée
+link:./systeme.html[Système de design] et bibliothèque partagée
 
 === ...
 
@@ -154,7 +154,7 @@ Structuration d’un système de design dans Figma.
 
 === ...
 
-Création de styles globaux et synchronisation avec les composants.
+* link:./globaux.html[Création de styles globaux et synchronisation avec les composants.]
 
 
 === ...

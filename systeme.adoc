@@ -1,0 +1,219 @@
+= Structuration d’un Système de Design dans Figma
+:revealjs_theme: beige
+:source-highlighter: highlight.js
+:icons: font
+
+== Introduction
+
+La structuration d’un système de design dans Figma permet de centraliser les éléments essentiels du design et d’assurer une cohérence visuelle dans l’ensemble du projet. 
+
+
+== 1. Objectifs d’un Système de Design
+
+=== Cohérence : 
+
+Centraliser les styles, composants, et directives pour un design uniforme.
+
+=== Réutilisabilité : 
+
+Faciliter l’utilisation des composants dans plusieurs projets ou pages.
+
+=== Efficacité : 
+
+Accélérer le processus de conception en évitant la duplication des efforts.
+
+=== Collaboration : 
+
+Permettre aux équipes de partager une source unique de vérité.
+
+== 2. Structure Typique d’un Système de Design
+
+=== A. Fichier dédié au système de design
+
+=== Créer un fichier centralisé :
+
+=== Nommez-le clairement, par exemple : 
+
+Design System.
+
+=== Organisez par pages :
+
+Utilisez des pages pour séparer les différents éléments du système.
+
+=== Exemple d’organisation :
+
+=== Page 1 : Introduction
+
+Documentation ou aperçu du système.
+
+=== Page 2 : Styles
+
+Couleurs, typographies, effets.
+
+=== Page 3 : Composants
+
+Boutons, cartes, icônes.
+
+=== Page 4 : Grilles et mises en page
+
+Systèmes de colonnes, grilles responsives.
+
+=== Page 5 : Icônes
+
+Bibliothèque d’icônes.
+
+=== B. Structuration interne des pages
+
+=== 1. Page : Styles
+
+Les styles regroupent les fondamentaux visuels.
+
+
+=== Couleurs :
+
+* Palette primaire : Couleurs principales de la marque.
+* Palette secondaire : Couleurs pour les éléments secondaires.
+* États : Succès, erreur, attention.
+* Couleurs neutres : Arrière-plan, bordures, texte.
+
+=== Astuce : 
+
+Créez des styles de couleur pour chaque teinte (ex. : "Primary Blue", "Success Green").
+
+=== Textes :
+
+=== Créez des styles pour :
+
+* Titres (H1, H2, H3).
+* Corps de texte.
+* Légendes.
+
+=== ...
+
+* Documentez la hiérarchie typographique et ses usages.
+
+=== Effets :
+
+* Ombres : Définissez des niveaux (léger, moyen, fort).
+* Flous : Arrière-plan et calques.
+* Bordures : Styles de bordures courants.
+
+== 2. Page : Composants
+
+Les composants sont les éléments réutilisables.
+
+
+=== Organisation par catégories :
+
+* Boutons : Primary, Secondary, Disabled.
+* Formulaires : Champs de saisie, cases à cocher, menus déroulants.
+* Cartes : Cartes de contenu ou produit.
+* Modaux : Pop-ups, dialogues de confirmation.
+
+=== Utilisez des variantes :
+
+* Gérer les états (actif, inactif, survol).
+* Intégrer des tailles différentes (Small, Medium, Large).
+
+=== Utilisez Auto Layout :
+* Rendez les composants adaptatifs à la longueur du contenu ou à la taille du cadre.
+
+== 3. Page : Grilles et Mises en Page
+
+=== Grilles responsives :
+
+* Mobile : 4 colonnes.
+* Tablette : 8 colonnes.
+* Desktop : 12 colonnes.
+
+=== Guides et marges :
+
+Définissez des espacements standards pour les marges et les paddings.
+
+== 4. Page : Icônes
+
+=== Organisation par thèmes :
+
+* Actions : Ajouter, modifier, supprimer.
+* Navigation : Retour, menu, recherche.
+
+=== Convertir en composants :
+
+Facilitez la mise à jour et la réutilisation des icônes.
+
+== 3. Utilisation des Styles et Composants
+
+=== A. Création des Styles
+
+=== Couleurs :
+
+* Sélectionnez un élément coloré.
+* Cliquez sur l’icône de style (quatre carrés empilés) > Create Style.
+* Donnez un nom descriptif.
+
+=== Textes :
+
+* Configurez la typographie.
+* Cliquez sur l’icône de style (en forme de T) > Create Style.
+
+=== B. Création des Composants
+
+=== Convertir un élément en composant :
+
+* Sélectionnez un élément.
+* Faites un clic droit > Create Component.
+
+=== Créer des variantes :
+
+* Sélectionnez le composant.
+* Ajoutez des variantes pour gérer les états ou types.
+
+== 4. Publier un Système de Design comme Bibliothèque
+
+=== Publier le fichier comme bibliothèque :
+
+* Allez dans Assets > Team Library.
+* Activez la publication de votre système de design.
+
+=== Partager avec l’équipe :
+
+* Publiez la bibliothèque pour que d’autres membres puissent l’utiliser.
+* Mettez à jour régulièrement.
+
+== 5. Bonnes Pratiques pour Structurer un Système de Design
+
+=== Centralisez :
+
+Placez tous les éléments principaux dans un seul fichier pour éviter les doublons.
+
+=== Documentez :
+
+Ajoutez une page explicative décrivant les usages des styles et composants.
+
+=== Nommez clairement :
+
+
+=== Adoptez une convention de nommage intuitive :
+
+* Exemple : "Button/Primary/Active".
+
+=== Limitez la complexité :
+
+N’ajoutez que les composants nécessaires pour éviter une surcharge.
+
+=== Testez l’accessibilité :
+
+Vérifiez les contrastes, tailles de texte et utilisabilité sur différents dispositifs.
+
+=== Mettez à jour régulièrement :
+
+* Faites évoluer le système en fonction des besoins du projet ou des retours d’équipe.
+
+
+
+
+
+
+
+
+
